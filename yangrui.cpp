@@ -2,6 +2,12 @@
 
 int main()
 {
+//À´¸öÑ­»·°É
    int a = 0;
-   println("%d",a);
+  
+   for(int i = 0;i<10;i++)
+  {
+     a+=i;
+    println("%d",a);
+  }
 }
